@@ -5,7 +5,7 @@
 
 
 
-const nome = 'beatriz dos santos';
+let nome = 'beatriz dos santos';
 const sobrenome = 'rodrigues';
 const idade = 24;
 const peso = 52;
@@ -22,5 +22,7 @@ console.log(anoNascimento);
 
 console.log(nome, sobrenome, 'tem', idade, 'anos. pesa', peso,'kg, e tem', altura,'de altura e seu IMC é de',imc);
 console.log(nome, sobrenome, 'nasceu em', anoNascimento);
+nome = 'beatriz'
+console.log(`${nome} tem ${idade} anos, e nasceu em ${anoNascimento}`);
 
 
